@@ -1,0 +1,21 @@
+*/ Ejemplo de subida /*
+Haces click en "Git bash here"
+Luego se abrira el Git. Como es tu primera vez deberas de configurar tu nombre y correo.
+Para eso ejecutar los siguientes comandos:
+
+#> git config --global user.name "no nombre"
+#> git config --global user.email "tu correo"
+Con eso ya tienes git configurado.
+
+Para mostrar tus configuraciones ejecuta:
+
+git config --list
+
+paso02
+Ahora con git configurado necesitas de clonar el proyecto que esta en github.com
+Para eso te vas a la dirección del repositorio y copias la url del repo:
+git clone git@github.com:apere7/proyecto-programacion-unix.git
+
+
+paso03 SUbir cambios
+Para que puedas hacer el "git add xarhivo.." tienes que estar dentro de la carpeta del repositorio clonado".
